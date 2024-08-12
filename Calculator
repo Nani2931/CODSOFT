@@ -43,12 +43,12 @@ def divide():
    except ValueError:
        result_label.config(text="Error! Invalid input.")
 
-# create a tkinter window
+# a tkinter window
 window = Tk()
 window.title("Calculator")
 window.geometry("300x350")  # set the size of the window
 
-# create entry fields for numbers
+# entry fields for numbers
 num1_label = Label(window, text="Number 1:")
 num1_label.grid(column=0, row=0)
 num1_entry = Entry(window, width=25)
@@ -59,7 +59,7 @@ num2_label.grid(column=0, row=1)
 num2_entry = Entry(window, width=25)
 num2_entry.grid(column=1, row=1)
 
-# create buttons for arithmetic operations
+# buttons for arithmetic operations
 add_button = Button(window, text="+", command=add, width=5)
 add_button.grid(column=0, row=2)
 
@@ -72,9 +72,9 @@ multiply_button.grid(column=0, row=3)
 divide_button = Button(window, text="/", command=divide, width=5)
 divide_button.grid(column=1, row=3)
 
-# create a label to display the result
+# a label to display the result
 result_label = Label(window, text="Result: ")
 result_label.grid(column=0, row=4, columnspan=2)
 
-# start the tkinter main loop
+# the tkinter main loop
 window.mainloop()
