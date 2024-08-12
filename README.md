@@ -1,11 +1,11 @@
 # CODSOFT
 
-CALCULATOR
+CALCULATOR   
 A simple calculator with basic arithmetic operations.
 Prompt the user to input two numbers and an operation choice.
 and display the result of the calculations.
 
-PASSWORD GENERATOR
+PASSWORD GENERATOR   
 A password generator is a useful tool that generates strong and
 random passwords for users. This project aims to create a
 password generator application using Python, allowing users to
@@ -14,7 +14,7 @@ User Input: Prompted the user to specify the desired length of the password.
 Generate Password: Using a combination of random characters to generate a password of the specified length.
 Display the Password: Printing the generated password on the screen.
 
-Rock-Paper-Scissors Game
+Rock-Paper-Scissors Game   
 User Input: Prompted the user to choose rock, paper, or scissors.
 Computer Selection: It generates a random choice (rock, paper, or scissors) for the computer.
 Game Logic: Determines the winner based on the user's choice and the computer's choice.
